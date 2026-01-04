@@ -1,0 +1,88 @@
+.box1 {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    padding: 40px;
+}
+
+.table-container {
+    max-width: 1200px;
+    margin: auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4a148c;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 1000px;
+}
+
+thead {
+    background: linear-gradient(135deg, #ff512f, #dd2476);
+    color: white;
+}
+
+th,
+td {
+    padding: 14px;
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #ffe0f0;
+    transform: scale(1.01);
+}
+
+/* Buttons */
+.btn {
+    padding: 6px 12px;
+    margin: 2px;
+    border: none;
+    border-radius: 20px;
+    font-size: 13px;
+    cursor: pointer;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.btn.view {
+    background: linear-gradient(135deg, #2196f3, #21cbf3);
+}
+
+.btn.edit {
+    background: linear-gradient(135deg, #4caf50, #81c784);
+}
+
+.btn.delete {
+    background: linear-gradient(135deg, #f44336, #e57373);
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+
+/* Scrollbar */
+.table-wrapper::-webkit-scrollbar {
+    height: 8px;
+}
+
+.table-wrapper::-webkit-scrollbar-thumb {
+    background: #764ba2;
+    border-radius: 10px;
+}
